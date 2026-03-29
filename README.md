@@ -2,6 +2,8 @@
 
 A lightweight protocol for AI coding agents (GitHub Copilot, Cursor, etc.) to maintain persistent project context across sessions using a structured `.memory-bank/` directory.
 
+For a real-world example have a look at the memory bank files for my [openweather-controller](https://github.com/rtoma/openweather-controller/tree/main/.memory-bank) project.
+
 ## What is AGENTS.md?
 
 `AGENTS.md` is a root-level instruction file that AI agents automatically read to understand how to behave in this repository. It enforces two core protocols:
